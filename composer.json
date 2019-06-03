@@ -1,0 +1,18 @@
+{
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/",
+      "Ethereal\\": "src/Ethereal/"
+    },
+    "files": [
+      "build/functions/core.php",
+      "build/functions/helper.php"
+    ]
+  },
+  "require": {
+    "psr/container": "^1.0",
+    "psr/log": "^1.1",
+    "psr/http-message": "^1.0",
+    "psr/cache": "^1.0"
+  }
+}
