@@ -9,7 +9,7 @@ jobs:
     run-ons: windows-latest
     
     steps:
-      - use: actions/checkout@v2
+      - uses: actions/checkout@v2
 
       - name: Environments
         run: set
