@@ -15,4 +15,6 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Check OS Architecture
-      run: wmic OS get OSArchitecture
+      run: |
+        cmd
+        wmic OS get OSArchitecture
